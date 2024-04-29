@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: lightblue;
+    padding: 10px;
+}
+
+.exit{
+    background-color: red !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+label {
+    width: 40%;
+    display: inline-block;
+    padding: 10px;
+    ;
+}
+
+.form-container input[type=submit] {
+    width: 70%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+h1 {
+    padding: 20px 20px;
+    background-color: lightblue;
+
+}
+
+.error {
+    color: red;
+}
+
+nav {
+    background-color: #222;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    color: black;
+}
+
+nav a {
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    background-color: #0066b2;
+    color: black;
+}
+
+.message {
+    margin: 30px auto;
+    width: 40%;
+    border: solid black;
+    border-radius: 5px;
+    color: black;
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+.grid-container {
+    display: grid;
+    align-items: center;
+    margin: 15vh 0;
+    grid-template-columns: 50% auto;
+    grid-gap: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+
+.grid-item {
+    color: white;
+    background-color: transparent;
+    border: 0px;
+    padding: 20px;
+}
+
+table img:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.update{
+    padding: 0;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    width: 70%;
+    height: 50%;
+    padding: 50px;
+    background-color: white;
+    align-items: center;
+}
+
+
+
+.btn{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    margin: 0;
+}
+
+h2{
+    padding-top: 10px;
+}
